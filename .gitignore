@@ -1,0 +1,173 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ================================
+# Entornos virtuales
+# ================================
+Entorno/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+*.venv/
+
+# ================================
+# Django
+# ================================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+/static/
+*.pot
+*.mo
+
+# ================================
+# Variables de entorno
+# ================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ================================
+# PostgreSQL / Base de datos
+# ================================
+*.sql
+*.sqlite3
+pgdata/
+postgres_data/
+*.dump
+
+# ================================
+# Docker
+# ================================
+docker-compose.override.yml
+.docker/
+*.pid
+
+# ================================
+# IDEs y editores
+# ================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ================================
+# Sistemas operativos
+# ================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ================================
+# Testing y cobertura
+# ================================
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+coverage.xml
+*.cover
+
+# ================================
+# Logs y temporales
+# ================================
+logs/
+*.log
+tmp/
+temp/
+*.bak
+*.tmp
+*.swp
+
+# ================================
+# Node (por si agregas frontend)
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# ================================
+# Secretos y credenciales
+# ================================
+*.pem
+*.key
+*.crt
+*.p12
+secrets.json
+credentials.json
+
+# ================================
+# Archivos específicos del proyecto
+# ================================
+*.rdb
+dump.rdb
