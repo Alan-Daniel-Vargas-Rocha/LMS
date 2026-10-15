@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: AlantonicDB
+    restart: always
+    environment:
+      POSTGRES_USER: Alantonic_Gamer
+      POSTGRES_PASSWORD: abc123
+      POSTGRES_DB: LMS_IDESMA
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data31:/var/lib/postgresql/data
+  
+volumes:
+  postgres_data31:
